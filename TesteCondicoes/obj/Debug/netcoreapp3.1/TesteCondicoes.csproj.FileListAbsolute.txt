@@ -1,0 +1,11 @@
+C:\Users\drumm\OneDrive\Documentos\Fapen\2020S2_3LDSDBA\Código\Aula3\Aula3\TesteCondicoes\bin\Debug\netcoreapp3.1\TesteCondicoes.exe
+C:\Users\drumm\OneDrive\Documentos\Fapen\2020S2_3LDSDBA\Código\Aula3\Aula3\TesteCondicoes\bin\Debug\netcoreapp3.1\TesteCondicoes.deps.json
+C:\Users\drumm\OneDrive\Documentos\Fapen\2020S2_3LDSDBA\Código\Aula3\Aula3\TesteCondicoes\bin\Debug\netcoreapp3.1\TesteCondicoes.runtimeconfig.json
+C:\Users\drumm\OneDrive\Documentos\Fapen\2020S2_3LDSDBA\Código\Aula3\Aula3\TesteCondicoes\bin\Debug\netcoreapp3.1\TesteCondicoes.runtimeconfig.dev.json
+C:\Users\drumm\OneDrive\Documentos\Fapen\2020S2_3LDSDBA\Código\Aula3\Aula3\TesteCondicoes\bin\Debug\netcoreapp3.1\TesteCondicoes.dll
+C:\Users\drumm\OneDrive\Documentos\Fapen\2020S2_3LDSDBA\Código\Aula3\Aula3\TesteCondicoes\bin\Debug\netcoreapp3.1\TesteCondicoes.pdb
+C:\Users\drumm\OneDrive\Documentos\Fapen\2020S2_3LDSDBA\Código\Aula3\Aula3\TesteCondicoes\obj\Debug\netcoreapp3.1\TesteCondicoes.csprojAssemblyReference.cache
+C:\Users\drumm\OneDrive\Documentos\Fapen\2020S2_3LDSDBA\Código\Aula3\Aula3\TesteCondicoes\obj\Debug\netcoreapp3.1\TesteCondicoes.AssemblyInfoInputs.cache
+C:\Users\drumm\OneDrive\Documentos\Fapen\2020S2_3LDSDBA\Código\Aula3\Aula3\TesteCondicoes\obj\Debug\netcoreapp3.1\TesteCondicoes.AssemblyInfo.cs
+C:\Users\drumm\OneDrive\Documentos\Fapen\2020S2_3LDSDBA\Código\Aula3\Aula3\TesteCondicoes\obj\Debug\netcoreapp3.1\TesteCondicoes.dll
+C:\Users\drumm\OneDrive\Documentos\Fapen\2020S2_3LDSDBA\Código\Aula3\Aula3\TesteCondicoes\obj\Debug\netcoreapp3.1\TesteCondicoes.pdb
