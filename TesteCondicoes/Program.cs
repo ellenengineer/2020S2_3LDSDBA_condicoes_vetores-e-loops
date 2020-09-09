@@ -11,31 +11,113 @@ namespace TesteCondicoes
        static int[] arrayWhile = new int[] { 1, 2, 3, 4, 5 };
         static void Main(string[] args)
         {
-            //DiaSemana();
+            //comentario por linha
+            /*comentário por código*/
 
-            //TesteTaxa();
 
-            //TestarDoisDiasSemana();
+            /* //1 - Teste IF-ELSE
+            string strValorDiaDaSemana = Console.ReadLine();
 
-            // TesteQuadrante();
+            int intValorUsuarioConvertido = Convert.ToInt32(strValorDiaDaSemana);
+            showCondition((DiaUteisSemana)intValorUsuarioConvertido);
+            //Fim do teste IF- ELSE*/
 
-            //InicializarArray();
 
-            //PercorreWhile();
+            /*
+            //  2 - Teste Switch Case no C#
+            string strValorDiaDaSemana = Console.ReadLine();
+            int intValorUsuarioConvertido = Convert.ToInt32(strValorDiaDaSemana);
+            showSwitchCase((DiaUteisSemana)intValorUsuarioConvertido);
+            //FIM Teste Switch Case no C#
+            */
 
-            //PercorreDOWhile();
 
-            //TesteBreak();
+            /*  //3 - switchCaseClasse - switch case com parametro de classe
+              string strValorDiaDaSemana = Console.ReadLine();
+              int intValorUsuarioConvertido = Convert.ToInt32(strValorDiaDaSemana);
 
-            // TEsteContinue();
-            // TEsteFor();
+              clsDiasSemana clsDia = new clsDiasSemana();
+              clsDia.DiaSemanaProperty = (DiaUteisSemana)intValorUsuarioConvertido;
+              decimal retorno =  switchCaseClasse(clsDia, 50);
+
+              Console.WriteLine(retorno);
+              Console.ReadLine();
+              //switchCaseClasse - switch case com parametro de classe*/
+
+            /*
+             // 4 - SwitchCase2 - uma das formar de implementar condicoes switch case no C#
+             string strValorDigitadoPeloUsuario = Console.ReadLine();
+             int intValorDigitadoConvertido = Convert.ToInt32(strValorDigitadoPeloUsuario);
+             DiaUteisSemana diaUtil = (DiaUteisSemana)intValorDigitadoConvertido;
+             string retorno = SwitchCase2(diaUtil);
+             Console.WriteLine(retorno);
+             Console.ReadLine();
+             //FIM SwitchCase2 - uma das formar de implementar condicoes switch case no C#
+             */
+
+            /* //5 - Switch case Com duas condições RetornarDiasDeAula
+
+             Console.WriteLine("Digite o primeiro dia da semana");
+
+             string strDiaSemana1 = Console.ReadLine();
+
+             Console.WriteLine("Digite o segundo dia da semana");
+
+             string strDiaSemana2 = Console.ReadLine();
+
+
+             int intDiaSemana1 = Convert.ToInt32(strDiaSemana1);
+             int intDiaSemana2 = Convert.ToInt32(strDiaSemana2);
+
+             DiaUteisSemana diaSemana1 = (DiaUteisSemana)intDiaSemana1;
+             DiaUteisSemana diaSemana2 = (DiaUteisSemana)intDiaSemana2;
+
+            string retorno = RetornarDiasDeAula(diaSemana1, diaSemana2);
+
+             Console.WriteLine(retorno);
+
+             Console.ReadLine();
+             // FIM Switch case Com duas condições RetornarDiasDeAula*/
+
+
+            /* //6 - Switch case com mais de uma opcao, com propriedades de classe 
+
+             Console.WriteLine("Digite o primeiro dia da semana");
+
+             string strDiaSemana1 = Console.ReadLine();
+
+             Console.WriteLine("Digite o segundo dia da semana");
+
+             string strDiaSemana2 = Console.ReadLine();
+
+
+             int intDiaSemana1 = Convert.ToInt32(strDiaSemana1);
+             int intDiaSemana2 = Convert.ToInt32(strDiaSemana2);
+
+             DiaUteisSemana diaSemana1 = (DiaUteisSemana)intDiaSemana1;
+             DiaUteisSemana diaSemana2 = (DiaUteisSemana)intDiaSemana2;
+
+
+             clsDiasSemana objDiaSemana = new clsDiasSemana(diaSemana1, diaSemana2);
+
+             string retorno = GetDiasUteis(objDiaSemana);
+
+             Console.WriteLine(retorno);
+             Console.ReadLine();
+
+             //Fim Switch case com mais de uma opcao, com propriedades de classe*/
+
+            /* comentario em bloco*/
 
             TesteForeach();
-            Console.ReadLine();
+
 
 
         }
 
+        /// <summary>
+        /// Foreach
+        /// </summary>
         private static void TesteForeach()
         {
             foreach (var item in arrDiasSemana)
@@ -49,6 +131,9 @@ namespace TesteCondicoes
             }
         }
 
+        /// <summary>
+        /// For
+        /// </summary>
         private static void TEsteFor()
         {
             for (int indice = 0; indice <= arrayWhile.Length; indice++)
@@ -63,6 +148,9 @@ namespace TesteCondicoes
             }
         }
 
+        /// <summary>
+        /// continue
+        /// </summary>
         private static void TEsteContinue()
         {
             int indice = 0;
@@ -85,6 +173,9 @@ namespace TesteCondicoes
             }
         }
 
+        /// <summary>
+        /// Break
+        /// </summary>
         private static void TesteBreak()
         {
             int indice = 0;
@@ -99,6 +190,9 @@ namespace TesteCondicoes
             }
         }
 
+        /// <summary>
+        /// Do While
+        /// </summary>
         private static void PercorreDOWhile()
         {
             int indice = 0;
@@ -110,6 +204,9 @@ namespace TesteCondicoes
             } while (arrayWhile[indice] < 5);
         }
 
+        /// <summary>
+        /// Whilie
+        /// </summary>
         private static void PercorreWhile( )
         {
             int indice = 0;
@@ -122,6 +219,7 @@ namespace TesteCondicoes
 
         }
 
+        //Apenas exemplo para mostrar as formas de inicializar um array
         private static void InicializarArray()
         {
             // Array unidimensional de 5 inteiros .
@@ -159,43 +257,26 @@ namespace TesteCondicoes
             jaggedArray[1] = array1;
         }
 
-        private static void TesteQuadrante()
+        /// <summary>
+        /// 6 - Switch case com mais de uma opcao, com propriedades de classe GetDiasUteis
+        /// </summary>
+        /// <param name="dia"></param>
+        /// <returns></returns>
+        static string GetDiasUteis(clsDiasSemana dia) => dia switch
         {
-            Point pt = new Point(2, -4);
-
-            Quadrant quadr = GetQuadrant(pt);
-
-            Console.WriteLine(quadr);
-            Console.ReadLine();
-        }
-
-        private static void TestarDoisDiasSemana()
-        {
-            string strNumReceb = Console.ReadLine();
-            string strNumReceb2 = Console.ReadLine();
-
-            int numReceb = Convert.ToInt32(strNumReceb);
-            int numReceb2 = Convert.ToInt32(strNumReceb2);
-
-            DiaUteisSemana diaSemana1 = (DiaUteisSemana)numReceb;
-            DiaUteisSemana diaSemana2 = (DiaUteisSemana)numReceb2;
-
-            string retorno = RetornarDiasDeAula(diaSemana1, diaSemana2);
-
-            Console.WriteLine(retorno);
-        }
-
-        static Quadrant GetQuadrant(Point point) => point switch
-        {
-            (0, 0) => Quadrant.Origin,
-            var (x, y) when x > 0 && y > 0 => Quadrant.One,
-            var (x, y) when x < 0 && y > 0 => Quadrant.Two,
-            var (x, y) when x < 0 && y < 0 => Quadrant.Three,
-            var (x, y) when x > 0 && y < 0 => Quadrant.Four,
-            var (_, _) => Quadrant.OnBorder,
-            _ => Quadrant.Unknown
+            var (dia1, dia2) when dia1 == DiaUteisSemana.Segunda && dia2 == DiaUteisSemana.Quarta => "faço balé",
+            var (dia1, dia2) when dia1 == DiaUteisSemana.Terca && dia2 == DiaUteisSemana.Quinta=> "academia",
+            var (dia1, dia2) when dia1 == DiaUteisSemana.Quarta && dia2 == DiaUteisSemana.Sexta => "Vou pro bar",
+            var (_, _) =>"Dia não especificado",
+            _ => "Dia inexistente"
         };
 
+        /// <summary>
+        /// 5 - Switch case Com duas condições RetornarDiasDeAula
+        /// </summary>
+        /// <param name="dia1"></param>
+        /// <param name="dia2"></param>
+        /// <returns></returns>
         public static string RetornarDiasDeAula(DiaUteisSemana dia1, DiaUteisSemana dia2)
     => (dia1, dia2) switch
     {
@@ -203,31 +284,19 @@ namespace TesteCondicoes
         (DiaUteisSemana.Terca, DiaUteisSemana.Quinta) => "Academia",
         (DiaUteisSemana.Quarta, DiaUteisSemana.Sexta) => "Vou pro bar",
          //default
-         (_, _) => "Final de Semana"
+         (_, _) => "Dias não especificados"
+
+        //if(dia1 == "Segunda" && dia2 == "Quarta"){...}
     };
 
-        private static void TesteTaxa()
-        {
-            Address objAddress = new Address();
-            objAddress.State = Console.ReadLine();
+     
 
-
-            decimal valorTotal = ComputeSalesTax(objAddress, 20);
-            Console.WriteLine(String.Format("Valor total é : ", valorTotal));
-        }
-
-        static void DiaSemana()
-        { 
-            string strNumReceb = Console.ReadLine();
-            int numReceb = Convert.ToInt32(strNumReceb);
-
-            DiaUteisSemana diaSemana = (DiaUteisSemana)numReceb;
-
-             Console.WriteLine(FromDiaDaSemana(diaSemana));
-        }
-
-        //Switch case no c#8.0
-        public static string FromDiaDaSemana(DiaUteisSemana diaSemana) =>
+        /// <summary>
+        /// 4 - SwitchCase2
+        /// </summary>
+        /// <param name="diaSemana"></param>
+        /// <returns></returns>
+        public static string SwitchCase2(DiaUteisSemana diaSemana) =>
    diaSemana switch
    {
        DiaUteisSemana.Segunda => "Inicio da Semana",
@@ -238,18 +307,24 @@ namespace TesteCondicoes
        _ => throw new ArgumentException(message: "Dias não uteis", paramName: nameof(diaSemana)),
    };
 
-        public static decimal ComputeSalesTax(Address location, decimal salePrice) =>
-   location switch
-   {
-       { State: "SP" } => salePrice * 0.06M,
-       { State: "MG" } => salePrice * 0.075M,
-       { State: "RJ" } => salePrice * 0.05M,
+        /// <summary>
+        /// 3 - switchCaseClasse - switch case com parametro de classe
+        /// </summary>
+        /// <param name="dia"></param>
+        /// <param name="preco"></param>
+        /// <returns></returns>
+        public static decimal switchCaseClasse(clsDiasSemana dia, decimal preco) => dia switch
+        {
+            { DiaSemanaProperty: DiaUteisSemana.Segunda } => preco * 0.06M,
+            { DiaSemanaProperty: DiaUteisSemana.Quarta } => preco * 0.05M,
+            _ => 0M
+        };
 
-        //Default igual a 0
-        _ => 0M
-   };
-
-
+        /// <summary>
+        /// 2 - Teste Switch Case no C#
+        /// </summary>
+        /// <param name="dia"></param>
+        /// <returns></returns>
         static string showSwitchCase(DiaUteisSemana dia)
         {
             string retorno = string.Empty; // "";
@@ -279,7 +354,11 @@ namespace TesteCondicoes
             return retorno;
         }
 
-
+        /// <summary>
+        ///  1 - Teste IF ELSE
+        /// </summary>
+        /// <param name="dia"></param>
+        /// <returns></returns>
         static string showCondition(DiaUteisSemana dia)
         {
             if (dia == DiaUteisSemana.Segunda)

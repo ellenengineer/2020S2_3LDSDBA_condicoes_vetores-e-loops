@@ -10,18 +10,10 @@ namespace TesteCondicoes
         Terca = 2,
         Quarta = 3,
         Quinta = 4,
-        Sexta = 5
-    }
-
-    public enum Quadrant
-    {
-        Unknown,
-        Origin,
-        One,
-        Two,
-        Three,
-        Four,
-        OnBorder
+        Sexta = 5,
+        Sabado =6,
+        Domingo =7,
+        NaoExiste =8
     }
 
 }
